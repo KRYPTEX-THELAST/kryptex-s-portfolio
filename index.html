@@ -1,1 +1,81 @@
-﻿<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="icon" href="./favicon.ico" type="image/x-icon"/><link rel="stylesheet" href="../common-public/reset.css"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="format-detection" content="telephone=no"/><meta name="description" content="account.microsoft.com: guidedsetupnetworkApp"/><link rel="manifest" href="./manifest.json"/><title>guidedsetupnetworkApp</title><script id="local-area-content" type="application/json" src="./area-content/area-content.local.json"></script><link href="./static/css/main.chunk.css" rel="stylesheet"></head><body style="margin:0"><noscript>You need to enable JavaScript to run this app.</noscript><script type="text/javascript" src="../common-public/jquery.js"></script><script type="text/javascript" src="../common-public/jsll4.js"></script><script type="text/javascript" src="../common-public/objectEntries.js"></script><script type="text/javascript" src="../common-public/history.js"></script><script type="text/javascript" src="../common-public/bluebird.min.js"></script><script type="text/javascript" src="../common-public/axios.min.js"></script><script type="text/javascript" src="../common-public/react.production.min.js"></script><script type="text/javascript" src="../common-public/react-dom.production.min.js"></script><div id="root" data-area-content="null"></div><script type="text/javascript" src="area-content/area-content.loader.js"></script><script src="./static/js/bundle.js"></script><script src="./static/js/2.chunk.js"></script><script src="./static/js/main.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bodhit K. Pandey - Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Bodhit K. Pandey, a passionate web designer with a knack for blending creativity and functionality. I craft innovative, user-friendly websites that bring ideas to life, turning visions into immersive digital experiences. Let's create something amazing together!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>UI/UX</li>
+            <li>AI and ML</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>No projects published yet.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:bodhitwork@gmail.com">bodhitwork@gmail.com</a></p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Your resume can be uploaded here later.</p>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2024 Bodhit K. Pandey. All rights reserved.</p>
+        <p>Find me on <a href="https://www.instagram.com/_bodhit_pandey_/" target="_blank">Instagram</a> | <a href="https://github.com/KRYPTEX-THELAST" target="_blank">GitHub</a></p>
+    </div>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

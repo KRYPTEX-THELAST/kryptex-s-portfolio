@@ -1,16 +1,13 @@
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+/* Global Styles */
 body {
     background-color: #f7f7f7; /* Light pastel background */
     color: #333; /* Dark grey text */
-    font-family: 'Roboto', sans-serif;
-   margin: 0;
+    font-family: 'Roboto', sans-serif; /* Google font */
+    margin: 0;
     padding: 0;
 }
 
-h1, h2, h3 {
-    color: #2c3e50; /* Darker blue for headings */
-}
-
+/* Header and Navigation */
 .navbar {
     background-color: #ecf0f1; /* Light grey navbar */
     padding: 15px;
@@ -21,21 +18,66 @@ h1, h2, h3 {
     color: #2980b9; /* Blue links */
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navbar a:hover {
     color: #3498db; /* Lighter blue on hover */
 }
 
+/* Section Styling */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #2c3e50; /* Dark blue for headings */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* About Me Section */
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+/* Footer */
 .footer {
     background-color: #ecf0f1; /* Light grey footer */
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
+.footer p {
+    margin: 5px;
+}
+
+.footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #3498db;
+}
+
+/* Responsive Design */
 @media (max-width: 600px) {
     .navbar {
         display: block;
