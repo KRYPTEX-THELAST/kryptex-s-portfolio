@@ -1,57 +1,48 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-}
-
-.tagline {
-    font-style: italic;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-h2 {
-    color: #35424a;
-}
-
-.skills ul {
-    list-style-type: none;
+    background-color: #f7f7f7; /* Light pastel background */
+    color: #333; /* Dark grey text */
+    font-family: 'Roboto', sans-serif;
+   margin: 0;
     padding: 0;
 }
 
-.skills li {
-    background: #35424a;
-    color: #ffffff;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 4px;
+h1, h2, h3 {
+    color: #2c3e50; /* Darker blue for headings */
 }
 
-.contact a {
-    color: #35424a;
+.navbar {
+    background-color: #ecf0f1; /* Light grey navbar */
+    padding: 15px;
+    text-align: center;
 }
 
-footer {
+.navbar a {
+    color: #2980b9; /* Blue links */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #3498db; /* Lighter blue on hover */
+}
+
+.footer {
+    background-color: #ecf0f1; /* Light grey footer */
     text-align: center;
     padding: 10px;
-    background: #35424a;
-    color: #ffffff;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
 }
